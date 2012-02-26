@@ -1,9 +1,0 @@
-
-The project:
-
-Converting the Galaxy (http://galaxy.psu.edu/) Tool Config file to a WADL file, 
-conforming to WADL specifications (http://www.w3.org/Submission/wadl/).
-The specifications for Galaxy Tool config file can be found at http://wiki.g2.bx.psu.edu/Admin/Tools/Tool%20Config%20Syntax.
-The project uses an external Parser Stax (http://stax.codehaus.org/) The Streaming API for XML (StAX) Library for parsing XML.
-
-
