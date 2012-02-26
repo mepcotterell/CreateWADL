@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<application xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+xsi:schemaLocation='http://wadl.dev.java.net/2009/02 wadl.xsd'
+xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+xmlns='http://wadl.dev.java.net/2009/02'>
+    <resources base='WADLForGalaxyTools/'> 
+    <resource path='galaxyToolncbi_blastp_wrapper'>
+	<method name='NCBI BLAST+ blastp' id='ncbi_blastp_wrapper'> 
+		<request>
+			<param name='query' type='xsd:string' style='query' required='true'/> 
+			<param name='db_opts_selector' type='xsd:string' style='query' required='false'/> 
+			<param name='database' type='xsd:string' style='query' required='false'/> 
+			<param name='subject' type='xsd:string' style='query' required='false'/> 
+			<param name='database' type='xsd:string' style='query' required='false'/> 
+			<param name='subject' type='xsd:string' style='query' required='false'/> 
+			<param name='blast_type' type='xsd:string' style='query' required='true'/> 
+			<param name='evalue_cutoff' type='xsd:string' style='query' required='true'/> 
+			<param name='out_format' type='xsd:string' style='query' required='true'/> 
+			<param name='adv_opts_selector' type='xsd:string' style='query' required='false'/> 
+			<param name='filter_query' type='xsd:string' style='query' required='false'/> 
+			<param name='matrix' type='xsd:string' style='query' required='false'/> 
+			<param name='max_hits' type='xsd:string' style='query' required='false'/> 
+			<param name='word_size' type='xsd:string' style='query' required='false'/> 
+			<param name='parse_deflines' type='xsd:string' style='query' required='false'/> 
+		</request>
+		<response>
+			<param name='output1' type='xsd:string' style='query' /> 
+		</response>
+	</method>
+    </resource>
+    </resources>
+</application>
