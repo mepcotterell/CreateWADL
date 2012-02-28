@@ -7,6 +7,7 @@ import java.util.List;
 /**
  *
  * @author Alok Dhamanaskar
+ * @see    LICENSE (MIT style license file).
  */
 public class parameter
 {

@@ -16,6 +16,7 @@ import javax.xml.stream.XMLStreamReader;
 /**
  *
  * @author Alok Dhamanaskar
+ * @see    LICENSE (MIT style license file).
  * @see Uses http://stax.codehaus.org/ The Streaming API for XML (StAX) Library for parsing XML.
  *      Examples for use available at : http://www.xml.com/pub/a/2003/09/17/stax.html
  */
