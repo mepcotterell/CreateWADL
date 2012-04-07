@@ -6,7 +6,7 @@ The project is under Development, use at your own Risk
 @see    LICENSE (MIT style license file).
 
 
-The project:
+About the project:
 
 Converting the Galaxy (http://galaxy.psu.edu/) Tool Config file to a WADL file, 
 conforming to WADL specifications (http://www.w3.org/Submission/wadl/).
